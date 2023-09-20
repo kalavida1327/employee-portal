@@ -12,6 +12,7 @@ const client = new DynamoDBClient();
 
 const getEmployee = async (event) => {
 
+  
   const response = { statusCode: 200 };
   
   try {
